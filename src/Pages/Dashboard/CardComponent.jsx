@@ -11,11 +11,11 @@ function CardComponent() {
     ];
 
     return (
-        <div className="flex flex-wrap gap-4 justify-between p-6">
+        <div className="flex flex-wrap gap-4 justify-between">
             {cards.map((card, index) => (
-                <div key={index} className="w-full flex justify-around sm:w-1/2 h-30 lg:w-1/5 p-4 bg-white shadow-lg rounded-lg">
+                <div key={index} className="w-full flex justify-around sm:w-full h-full lg:w-1/5 p-4 bg-white shadow-lg rounded-lg">
                     <div className="p-4">
-                        <h3 className="text-3xl font-semibold text-gray-800">{card.title}</h3>
+                        <h3 className="text-xl font-semibold text-gray-800">{card.title}</h3>
                         <p className="text-gray-600 mt-2">{card.description}</p>
                     </div>
                     {/* icons */}

@@ -1,0 +1,62 @@
+[
+    {
+        "title": "Room101",
+        "description": "Panawat Srimuang",
+        "imageUrl": "Logo/black.jpg",
+        "statusText": "ค้างชำระ"
+    },
+    {
+        "title": "Room102",
+        "description": "Panawat Srimuang",
+        "imageUrl": "Logo/black.jpg",
+         "statusText": "อัตราการเข้าพัก"
+    },
+    {
+        "title": "Room103",
+        "description": "Panawat Srimuang",
+        "imageUrl": "Logo/black.jpg",
+         "statusText": "ค้างชำระ"
+    },
+    {
+        "title": "Room104",
+        "description": "Panawat Srimuang",
+        "imageUrl": "Logo/black.jpg",
+        "statusText": "ห้องว่าง"
+    },
+    {
+        "title": "Room105",
+        "description": "Panawat Srimuang",
+        "imageUrl": "Logo/black.jpg",
+        "statusText": "ค้างชำระ"
+    },
+    {
+        "title": "Room106",
+        "description": "Panawat Srimuang",
+        "imageUrl": "Logo/black.jpg",
+         "statusText": "อัตราการเข้าพัก"
+    },
+    {
+        "title": "Room107",
+        "description": "Panawat Srimuang",
+        "imageUrl": "Logo/black.jpg",
+         "statusText": "ค้างชำระ"
+    },
+    {
+        "title": "Room108",
+        "description": "Panawat Srimuang",
+        "imageUrl": "Logo/black.jpg",
+        "statusText": "ห้องว่าง"
+    },
+    {
+        "title": "Room109",
+        "description": "Panawat Srimuang",
+        "imageUrl": "Logo/black.jpg",
+        "statusText": "ห้องว่าง"
+    },
+    {
+        "title": "Room110",
+        "description": "Panawat Srimuang",
+        "imageUrl": "Logo/black.jpg",
+        "statusText": "ค้างชำระ"
+    }
+]
