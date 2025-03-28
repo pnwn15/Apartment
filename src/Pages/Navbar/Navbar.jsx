@@ -3,6 +3,9 @@ import { HomeOutlined, InfoCircleOutlined, UserOutlined, MenuOutlined } from '@a
 import { Layout, Menu, Button } from 'antd';
 import Account from './Account';
 import App from '../../App';
+import { MdSpeed } from "react-icons/md"; // Import ไอคอนจาก react-icons/md
+import { FaEnvelope } from "react-icons/fa";
+
 
 const { Header, Content, Sider } = Layout;
 
@@ -36,6 +39,19 @@ const NavbarComponents = () => {
             label: 'About',
             href: '/about',
         },
+        {
+            key: 'Meter reading',
+            icon: <MdSpeed  />,
+            label: 'Meter reading',
+            href: "/meter-reading" ,
+        },
+        {
+            key: 'BillList',
+            icon: <FaEnvelope />,
+            label: 'BillListt',
+            href: "/billList" ,
+        },
+
     ];
     return (
         <Layout className="min-h-screen">
