@@ -39,10 +39,10 @@ function DashboardPage() {
         available: (
             <div className="h-screen">
                 <div className="bg-gray-200">
-                    <h1 className="text-3xl font-bold p-5 text-black">ชั้นที่ 2 (ห้องจอง)</h1>
+                    <h1 className="text-3xl font-bold p-5 text-black">ชั้นที่ 2</h1>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 p-5">
-                    {roomData.filter(room => room.statusText === 'ห้องจอง').map((card, index) => (
+                    {roomData.map((card, index) => (
                         <div key={index} className="bg-white shadow-lg relative">
                             {/* Room Image */}
                             <div
@@ -66,7 +66,7 @@ function DashboardPage() {
         occupied: (
             <div className="h-screen">
                 <div className="bg-gray-200">
-                    <h1 className="text-3xl font-bold p-5 text-black">ชั้นที่ 3 (ค้างชำระ)</h1>
+                    <h1 className="text-3xl font-bold p-5 text-black">ชั้นที่ 3</h1>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 p-5">
                     {roomData.filter(room => room.statusText === 'ค้างชำระ').map((card, index) => (
@@ -93,7 +93,7 @@ function DashboardPage() {
         pending: (
             <div className="h-screen">
                 <div className="bg-gray-200">
-                    <h1 className="text-3xl font-bold p-5 text-black">ชั้นที่ 4 (ห้องว่าง)</h1>
+                    <h1 className="text-3xl font-bold p-5 text-black">ชั้นที่ 4</h1>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 p-5">
                     {roomData.filter(room => room.statusText === 'ห้องว่าง').map((card, index) => (
@@ -158,7 +158,7 @@ function DashboardPage() {
             {/* Filter and Search Section */}
             <Grid item xs={12}>
                 <Box>
-                    <div className="bg-white p-8 rounded-lg shadow-lg w-full">
+                    <div className="bg-white p-10 h-full rounded-lg shadow-lg w-full">
                         <Typography variant="h5" component="h2" align="center" gutterBottom>
                             ผังห้อง
                         </Typography>
@@ -176,8 +176,8 @@ function DashboardPage() {
                                     >
                                         <MenuItem value="">เลือกฟิลเตอร์</MenuItem>
                                         <MenuItem value="all">อัตราการเข้าพัก</MenuItem>
-                                        <MenuItem value="available">ห้องจอง</MenuItem>
-                                        <MenuItem value="occupied">ค้างชำระ</MenuItem>
+                                        <MenuItem value="all">ห้องจอง</MenuItem>
+                                        <MenuItem value="all">ค้างชำระ</MenuItem>
                                         <MenuItem value="pending">ห้องว่าง</MenuItem>
                                     </Select>
                                 </FormControl>
